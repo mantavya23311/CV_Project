@@ -1,3 +1,6 @@
+# CV_Project
+3-D Reconstruction from images with features like single object segmentation and color and texture editing
+
 # VokVision: Professional 3D AI Reconstruction Engine
 
 VokVision is an elite-grade 3D reconstruction platform that transforms a handful of 2D images into high-fidelity 3D Gaussian Splats. Engineered for professional workflows, it utilizes a state-of-the-art hybrid AI pipeline to deliver industrial-standard results.
