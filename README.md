@@ -15,6 +15,8 @@ Steps to run:
 
 (base) mantavya23311@LAPTOP-6013JAQC:~/vok-vision-main/storage/uploads/test_project_001$
 
+Results and input will be stored in the storage folder
+
 
 # VokVision: Professional 3D AI Reconstruction Engine
 
