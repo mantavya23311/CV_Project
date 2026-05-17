@@ -1,6 +1,21 @@
 # CV_Project
 3-D Reconstruction from images with features like single object segmentation and color and texture editing
 
+## Steps to run the code on your local System after cloning it:
+Steps to run:
+1) python run_local.py --iterations 3000
+2) (base) mantavya23311@LAPTOP-6013JAQC:~/vok-vision-main/backend/processor$ source venv/bin/activate
+3)  a=1                               
+  for f in *.jpg *.jpeg; do
+  [ -e "$f" ] || continue
+  printf -v num "%03d" $a
+  mv -n "$f" "img_$num.jpg"
+  ((a++))
+  done
+
+(base) mantavya23311@LAPTOP-6013JAQC:~/vok-vision-main/storage/uploads/test_project_001$
+
+
 # VokVision: Professional 3D AI Reconstruction Engine
 
 VokVision is an elite-grade 3D reconstruction platform that transforms a handful of 2D images into high-fidelity 3D Gaussian Splats. Engineered for professional workflows, it utilizes a state-of-the-art hybrid AI pipeline to deliver industrial-standard results.
