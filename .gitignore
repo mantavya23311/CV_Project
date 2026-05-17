@@ -73,3 +73,22 @@ firebase-service-account.json
 .env*
 ! .env.example
 *.ply
+
+# Ignore everything inside storage
+storage/*
+
+# Keep uploads and outputs folders
+!storage/uploads/
+!storage/outputs/
+
+# Keep project folders
+!storage/uploads/test_project_001/
+!storage/outputs/test_project_001/
+
+# Ignore contents inside project folders
+storage/uploads/test_project_001/*
+storage/outputs/test_project_001/*
+
+# Keep placeholder files
+!storage/uploads/test_project_001/.gitkeep
+!storage/outputs/test_project_001/.gitkeep
